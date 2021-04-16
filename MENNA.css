@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Bad+Script');
+body
+{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100hv;
+  background: #000;
+  font-family: 'Bad Script', cursive;
+}
+#hb
+{
+  margin: 0;
+  padding: 0;
+  align-content: top-center;
+  Color: #ffa3b3;
+  font-size: 4em;
+}
+h1
+{
+  margin: 0;
+  padding: 0;
+  color: #111;
+  font-size: 16em;
+}
+h1 span
+{
+  display: taple-cell;
+  margin: 0;
+  padding: 0;
+  animation: animate 2s linear infinite;
+}
+h1 span:nth-cild(1)
+{
+  animation-delay: 0.25s;
+} 
+h1 span:nth-cild(2)
+{
+  animation-delay: 0.5s;
+} 
+h1 span:nth-cild(3)
+{
+  animation-delay: 0.75s;
+} 
+h1 span:nth-cild(4)
+{
+  animation-delay: 1s;
+} 
+h1 span:nth-cild(5)
+{
+  animation-delay: 1.25s;
+} 
+h1 span:nth-cild(6)
+{
+  animation-delay: 1.5s;
+} 
+h1 span:nth-cild(7)
+{
+  animation-delay: 1.75s;
+} 
+@keyframes animate
+{
+  0%,100%
+  {
+    color: #fff;
+    filter: blur(2px);
+    text-shadow: 0 0 10px #ff00b3,
+                0 0 20px #ff00b3,
+                0 0 40px #ff00b3,
+                0 0 80px #ff00b3,
+                0 0 120px #ff00b3,
+                0 0 200px #ff00b3,
+                0 0 300px #ff00b3,
+                0 0 400px #ff00b3;
+  }
+  5%,95%
+  {
+    color: #111;
+    filter: blur(0px);
+    text-shadow: none;
+  }
+  #date
+  {
+    margin: 0;
+    padding: 0;
+    color: white;
+    
+   
+  }
+}
